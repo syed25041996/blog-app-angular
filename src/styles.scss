@@ -32,3 +32,32 @@ body {
   border: none;
   box-shadow: 0 0 33px -10px rgba(71, 114, 254, 0.3);
 }
+
+.bg-theme {
+  background: var(--primary-color);
+}
+
+.bg-secondary-theme {
+  background: var(--secondary-color);
+}
+
+.text-theme-primary {
+  color: var(--primary-color);
+}
+
+input {
+  &[type="text"],
+  &[type="email"] {
+    height: 60px;
+    padding-left: 20px;
+    font-size: 13px;
+  }
+}
+
+.btn-theme {
+  height: 50px;
+  border: none;
+  font-size: 13px;
+  background: var(--primary-color);
+  color: white;
+}

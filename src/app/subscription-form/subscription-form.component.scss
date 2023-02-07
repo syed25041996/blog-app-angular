@@ -5,18 +5,8 @@
 input {
   &[type=text],
   &[type=email] {
-    height: 60px;
-    padding-left: 20px;
-    font-size: 13px;
     width: 100%;
   }
-}
-
-.btn-sub {
-  height: 50px;
-  border: none;
-  font-size: 13px;
-  background: var(--primary-color);
 }
 
 .subs-text {
